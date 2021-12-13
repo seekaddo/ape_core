@@ -1,0 +1,25 @@
+axi:
+  vlog_opts: [
+  #  -L common_cells_lib
+  ]
+  incdirs:
+    - include
+   # - ../../common_cells/include
+  files:
+    # Source files grouped in levels. Files in level 0 have no dependencies on files in this
+    # package. Files in level 1 only depend on files in level 0, files in level 2 on files in
+    # levels 1 and 0, etc. Files within a level are ordered alphabetically.
+    # Level 0
+    - src/ape_pkg.sv
+    # Level 1
+    - src/ape_core.sv
+    # Level 2
+
+
+
+axi_sim:
+  files:
+    - test/ape_test.sv
+  flags:
+    - skip_synthesis
+    - only_local
