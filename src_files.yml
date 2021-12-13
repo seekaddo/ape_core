@@ -1,4 +1,4 @@
-axi:
+ape_core:
   vlog_opts: [
   #  -L common_cells_lib
   ]
@@ -17,7 +17,7 @@ axi:
 
 
 
-axi_sim:
+ape_sim:
   files:
     - test/ape_test.sv
   flags:
