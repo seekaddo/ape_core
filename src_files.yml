@@ -17,7 +17,7 @@ ape_core:
 
 
 
-ape_sim:
+ape_core_sim:
   files:
     - test/ape_test.sv
   flags:
