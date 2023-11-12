@@ -1,10 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
+// Author: Dennis Addo <dennis_addo@aol.com>
 // Create Date: 01.02.2021 19:19:40
-// Design Name: Addo Dennis
 // Module Name: ape
 // Project Name: 
 // Target Devices: 

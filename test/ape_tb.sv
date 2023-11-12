@@ -1,18 +1,25 @@
 `timescale 1ns / 1ps
+
+// Copyright (c) 2021-2018 Dennis Addo
+//
+// Copyright and related rights are licensed under the Solderpad Hardware
+// License, Version 0.51 (the "License"); you may not use this file except in
+// compliance with the License.  You may obtain a copy of the License at
+// http://solderpad.org/licenses/SHL-0.51. Unless required by applicable law
+// or agreed to in writing, software, hardware and materials distributed under
+// this License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+// CONDITIONS OF ANY KIND, either express or implied. See the License for the
+// specific language governing permissions and limitations under the License.
+
+// Author:
+// Dennis Addo <dennis_addo@aol.com>
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer: 
 // 
 // Create Date: 01.02.2021 20:42:48
 // Design Name: 
-// Module Name: ape_tb
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
+// Module Name: ape_tb 
 // Revision:
 // Revision 0.01 - File Created
 // Additional Comments:

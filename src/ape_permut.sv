@@ -1,10 +1,9 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Author: Dennis Addo <dennis_addo@aol.com>
 // 
 // Create Date: 01.02.2021 22:19:53
-// Design Name: Addo Dennis
 // Module Name: ape_permut
 // Name: Dennis Addo
 // Target Devices: 

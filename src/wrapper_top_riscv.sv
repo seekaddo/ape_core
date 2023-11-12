@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Author: Dennis Addo <dennis_addo@aol.com>
 // 
 // Create Date: 07.08.2020 21:13:59
 // Design Name: 
