@@ -25,7 +25,14 @@ package ape_pkg;
     logic          r_opc;
 
   } ape_core_t;
+
+  typedef struct packed {
+    logic          valid;
+    logic [15:0]   Vc;
+
+  } ape_Vc_t;
+
   /// APE-IE instruction size :
-  localparam APE_CORE_IE_DATAWITH   =  34;
+  localparam APE_CORE_IE_DATAWIDTH   =  34;
 
 endpackage

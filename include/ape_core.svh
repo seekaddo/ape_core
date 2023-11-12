@@ -28,11 +28,19 @@
 `define APE_CORE_TAG                         16'hBABA_0000
 `define APE_CORE_DATA_WIDTH                  34             // 32 for AEE (Capacity 168), 34 for APE-IE (capacity 16), 96 for AEE_Light (capacity 32)
 
+`define APE_EMUL
+
 //Todo: Uncomment any of the Following to generate the right code
 `define APE_ROM_EMUL                         1              // ROM decryption only
 //`define APE_L2_PSLAVE0_EMUL                  2              // Instruction decyption only
 //`define APE_FPGA_EMUL                        3              // This will activate both ROM and Instruction in private slave 0 decryption
 
+
+`ifndef APE_EMUL
+`undef APE_ROM_EMUL
+`undef APE_L2_PSLAVE0_EMUL
+`undef APE_FPGA_EMUL
+`endif
 
 `endif
 
